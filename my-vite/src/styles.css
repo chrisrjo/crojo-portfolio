@@ -49,6 +49,19 @@ section{
 .home p{
     color: #fefefe
 }
+.socials-icons{
+    display: flex;
+    gap: 30px;
+
+}
+.socials-icons i{
+    color:#fefefe;
+    font-size: 25px;
+    cursor: pointer;
+}
+.socials-icons i:hover{
+    color: #39bbd4;
+}
 .hr{
   height:100px;
 }
