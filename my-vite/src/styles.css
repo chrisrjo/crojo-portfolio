@@ -51,12 +51,12 @@ section{
 }
 .socials-icons{
     display: flex;
-    gap: 15px;
+    gap: 10px;
 
 }
 .socials-icons i{
     color:#fefefe;
-    font-size: 35px;
+    font-size: 25px;
     cursor: pointer;
 }
 .socials-icons i:hover{
