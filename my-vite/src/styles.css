@@ -85,6 +85,10 @@ hr.solid{
     padding: 40px;
     box-shadow: 0px 0px 10px #38b9d3;
     border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.aboutme-container:hover {
+  transform: translateY(-10px);
 }
 #aboutme img{
     max-width: 300px;
