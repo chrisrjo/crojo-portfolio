@@ -128,6 +128,10 @@ hr.solid{
     min-height: 300px;
     min-width:300px;
     gap: 50px;
+    transition: transform 0.3s ease;
+}
+.skills-container:hover {
+  transform: translateY(-10px);
 }
 .skills-container div{
     height: 350px;
