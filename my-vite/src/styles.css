@@ -51,7 +51,7 @@ section{
 }
 .socials-icons{
     display: flex;
-    gap: 30px;
+    gap: 15px;
 
 }
 .socials-icons i{
