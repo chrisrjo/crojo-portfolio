@@ -25,6 +25,17 @@ export default function Home() {
         <p>
           As a student, I've been learning JavaScript, HTML, React, Node.js, Java, and Python — and I love the challenge of working beyond my capabilities. 
         </p>
+        <div class="socials-icons">
+          <a href="https://www.facebook.com/profile.php?id=61585731012044" target="_blank">
+          <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="https://github.com/chrisrjo" target="_blank">
+          <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/christina-rojo-b75421372/" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
       </section>
       <hr className="solid" />
     </>
