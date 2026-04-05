@@ -193,6 +193,13 @@ hr.solid{
     box-shadow: 0px 0px 10px #38b9d3;
     border-radius: 10px;
     align-items: center;
+    transition: transform 0.3s ease;
+}
+.message-container:hover {
+  transform: translateY(-10px);
+}
+.info-container:hover {
+  transform: translateY(-10px);
 }
 .contact-info ul{
     list-style-type: none;
