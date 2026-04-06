@@ -46,8 +46,18 @@ section{
 .home h1{
     letter-spacing: 7px;
 }
-.home p{
+.home h2, .home h3, .home p{
     color: #fefefe
+    opacity: 0;
+    transform: translateY(10px);
+    animation: slideFade 1s ease-out forwards;
+
+}
+@keyframes slideFade {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 .socials-icons{
     display: flex;
