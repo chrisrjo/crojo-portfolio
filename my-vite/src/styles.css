@@ -47,7 +47,7 @@ section{
     letter-spacing: 7px;
 }
 .home h2, .home h3, .home p{
-    color: #fefefe
+    color: #fefefe;
     opacity: 0;
     transform: translateY(10px);
     animation: slideFade 1s ease-out forwards;
